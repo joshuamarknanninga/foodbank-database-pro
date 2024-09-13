@@ -1,0 +1,84 @@
+/* public/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  #item-form, #search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #item-form input, #search-bar input {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #item-form button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #item-form button:hover {
+    background-color: #45a049;
+  }
+  
+  #inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  #inventory-table th, #inventory-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  #inventory-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  #inventory-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  button.action-btn {
+    padding: 6px 10px;
+    margin: 0 2px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.delete-btn {
+    background-color: #e74c3c;
+  }
+  
+  button.update-btn {
+    background-color: #3498db;
+  }
+  
+  button.delete-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  button.update-btn:hover {
+    background-color: #2980b9;
+  }
+  
