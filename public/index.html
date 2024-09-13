@@ -1,0 +1,39 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Food Bank Inventory</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Food Bank Inventory Management</h1>
+
+  <form id="item-form">
+    <input type="text" id="name" placeholder="Item Name" required>
+    <input type="number" id="quantity" placeholder="Quantity" required>
+    <input type="text" id="category" placeholder="Category" required>
+    <button type="submit">Add Item</button>
+  </form>
+
+  <div id="search-bar">
+    <input type="text" id="search-input" placeholder="Search items...">
+  </div>
+
+  <table id="inventory-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Quantity</th>
+        <th>Category</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Inventory items will be populated here -->
+    </tbody>
+  </table>
+
+  <script src="app.js"></script>
+</body>
+</html>
